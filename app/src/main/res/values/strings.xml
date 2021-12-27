@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015, Nordic Semiconductor
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  ~
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the
+  ~ documentation and/or other materials provided with the distribution.
+  ~
+  ~ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this
+  ~ software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  ~ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  ~ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  ~ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+  ~ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  ~ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+<resources>
+    <string name="app_name_papa">MDEX BLE DAQ(V.0.5-Heatmap)</string>
+    <string name="app_name">KGengingen</string>
+    <string name="ui_App_Title">KGengingen</string>
+    <string name="popup_title">어플 종료</string>
+    <string name="device">Device:</string>
+    <string name="no_device">&lt;Select a device&gt;</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not connected</string>
+    <string name="ready">Ready</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">connect</string>
+    <string name="unpair">unpair</string>
+    <string name="pair">pair</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="SystemId">SystemId</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="Readdummy">D Read</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="paired">paired</string>
+    <string name="popup_message">어플을 종료하시겠습니까?</string>
+    <string name="popup_yes">YES</string>
+    <string name="popup_no">NO</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+    <string name="ui_connect">Connect</string>
+    <string name="ui_battery_level">Battery Level :</string>
+    <string name="ui_last_packet_time">Last : </string>
+    <string name="ui_posture_lateral">판별 상태</string>
+    <string name="ui_posture_longitudinal">POSTURE LONGITUDINAL</string>
+    <string name="ui_start_save">Save to CSV</string>
+    <string name="ui_device_none">none (connect to Marveldex device)</string>
+    <string name="fmt_battery_level">Battery level : [%2d%%]</string>
+    <string name="fmt_time_last_packet">Last packet : </string>
+    <string name="fmt_start_save">Save to CSV</string>
+    <string name="fmt_stop_save">Stop save</string>
+    <string name="fmt_save_msg">Save successfully</string>
+    <string name="ui_state_leftside">Contour, left edge</string>
+    <string name="ui_state_rightside">right edge</string>
+    <string name="ui_state_coc">COC (Center of Contour) : </string>
+    <string name="ui_state_com">COM (Center of Mass) : </string>
+    <string name="ui_state_vector">Lateral vector(COM - COC)</string>
+    <string name="ui_dip_switch_txt">"Turn on Dip switch 'B' of Venus board"</string>
+    <string name="ui_dip_switch_toast">"딥스위치 B를 ON 하세요"</string>
+    <string name="fmt_determi_msg">"판별식 : %s, (%d sec)"</string>
+    <string name="fmt_notify_msg">"판별식 : %s"</string>
+    <string name="ui_btn_ble_connect">연결</string>
+    <string name="ui_btn_ble_try_connect">연결중...</string>
+    <string name="ui_btn_ble_connected">연결됨</string>
+    <string name="ui_btn_ble_disconnect">연결 해제</string>
+    <string name="ui_ble_state_recv">데이터 수신중</string>
+    <string name="ui_ble_state_blind">데이터 미수신</string>
+    <string name="ui_btn_save_start">데이터 저장</string>
+    <string name="ui_btn_save_stop">저장 종료</string>
+    <string name="ui_tx_command">신호 전송</string>
+    <string name="ui_btn_tx_1">전송 1</string>
+    <string name="ui_btn_tx_2">전송 2</string>
+    <string name="ui_device_tag">연결된 디바이스) </string>
+    <string name="ui_device_not_yet">없음</string>
+    <string name="ui_device_name_none">미연결 상태</string>
+    <string name="ui_det_msg_1">왼쪽 쏠림</string>
+    <string name="ui_det_msg_2">오른쪽 쏠림</string>
+    <string name="ui_det_msg_3">꼬리뼈의 압력이 높음</string>
+    <string name="ui_det_msg_4">허벅지의 압력이 높음</string>
+    <string name="noti_title">앉은자세 정렬상태</string>
+</resources>

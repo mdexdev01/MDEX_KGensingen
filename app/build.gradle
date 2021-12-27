@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 29
+    //noinspection GradleDependency
+    //buildToolsVersion '29.0.3'
+    defaultConfig {
+        applicationId 'com.marveldex.cushionBle'
+        minSdkVersion 23
+        targetSdkVersion 29
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '29.0.2'
+    ndkVersion '23.1.7779620'
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'ca.heartlandsoftware:androidheatmap:1.2.0'
+    implementation 'com.opencsv:opencsv:4.4'
+}
