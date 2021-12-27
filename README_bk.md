@@ -8,7 +8,7 @@ we use BLE 4.0 communication
 
 ================================================================
 
-노르딕 nrfUART 소스코드 주소
+Nordic nrfUART Reference source code 
 https://github.com/hubuhubu/Android-nRF-UART
 
 Main UI 
