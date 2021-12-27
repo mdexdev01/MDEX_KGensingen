@@ -1,4 +1,4 @@
-# MDEX_SEAT_31a0
+# MDEX_SEAT_31a0 - Parent project
 
 This is Sample Application for MDEX_VENUS board & sensor test
 
