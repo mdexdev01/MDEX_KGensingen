@@ -1,3 +1,3 @@
 "# MDEX_KGensingen" 
 
-"korea3"
+"korea 10 : Japan 1"
